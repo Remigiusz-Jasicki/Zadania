@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+ 
+ int n;
+
+int main(int argc, char** argv) {
+	
+	cout << "Podaj ilość pięter " << endl;
+	cin >> n;
+	int x = n - 2;
+	
+	for(int b = 1; b < n; b++){
+	x +=2;
+	for(int a = 1; a < n; a++){
+		for(int i = 0; i < n; i++){
+			cout <<"x";
+		}
+		cout << endl;
+	}
+	}
+	
+	return 0;
+}
